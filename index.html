@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hotel Management System</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <!-- external css -->
+  <link rel = "stylesheet" type = "text/css" href = "css\style.css" />
+</head>
+<body>
+  <a name="top"></a>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/bg2.jpg')">
+    <div class="overlay"></div>
+    <div class="container mt-5">
+      <div class="row mt-5">
+        <!-- Navigation -->
+        <div id="navbar">
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"><b>Home</b></a>
+                  </li>
+                  <li class="nav-item">
+                    
+                    <a  class="nav-link" href="about.html"><b>About</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><b>Contact</b></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"><b>Sign up</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"><b>Sign in</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="col-lg-8 col-md-10 mt-5">
+          <div class="site-heading mt-5">
+            <h1><i>WELCOME</i></h1>
+            <span class="subheading"><i><b>Stay Safe & Convenience</b></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--types of room -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mt-5">
+        <h2>Types of rooms</h2>
+        <div class="row mt-5">
+          <div class="col-xs-12 col-sm-4">
+            <div class="features-item">
+              <h3>Single Room</h3>
+              <img src="img\room2.jpg" width="350" height="350">
+              <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="features-item">
+              <h3>Family Room</h3>
+              <img src="img\room3.jpg" width="350" height="350">
+              <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="features-item">
+              <h3>Twin Bedded Room</h3>
+              <img src="img\room4.jpg" width="350" height="350">
+              <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- rooms -->
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
+      <div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Our Wonderful Places</h2></div>
+      <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
+    </div>
+    <div class="row mt-5">
+      <div class="col md-8">
+        <img src="img\room.jpg" width="700" height="480"  class="img-responsive">
+        
+      </div>
+      <!-- check now -->
+      <div class="col-md-4 ">
+        <div class="card " style="background-color:dodgerblue">
+          <form action="#" method="post" class="hotel-search-form">
+            <div class="tm-form-inner">
+              <div class="form-group">
+                <label class="mt-3"><b> You can book your room here.</b></label><br>
+                <select class="form-control">
+                  <option value="">Select Room </option>
+                  <option value="shangrila">Single Room</option>
+                  <option value="chatrium">Family Room</option>
+                  <option value="fourseasons">Two Bedded Room</option>
+                  <option value="hilton">Double-double Room</option>
+                </select> 
+              </div>
+              <div class="form-group">
+                <label class="mt-3"><b> Check-in Date</b></label><br>
+                <div class='input-group date' id='datetimepicker1'>
+                  
+                  <input type='date' class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="mt-3"><b> Check-out Date</b></label><br>
+                <div class='input-group date' id='datetimepicker1'>
+                  
+                  <input type='date' class="form-control" >
+                </div>
+              </div>
+              
+              <div class="form-group margin-bottom-0">
+                <label class="mt-3"><b> Select guests</b></label><br>
+                <select class="form-control">
+                  <option value=""> Guests </option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5p">5+</option>
+                </select> 
+              </div>
+            </div>							
+            <div class="form-group text-center">
+              <button  class="btn-btn-outline-dark btn-sm">Check Now</button>
+            </div>  
+          </form>
+        </div>
+        
+      </div>
+      <!-- end check now -->
+      <!-- food and drinks -->
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
+          <div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Our Foods & Drinks</h2></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-3">
+            <img src="img\food1.jpg" width="270" height="270"  class="img-responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="img\food2.jpg" width="270" height="270"  class="img-responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="img\food3.jpg" width="270" height="270"  class="img-responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="img\food4.jpg" width="270" height="270"  class="img-responsive">
+          </div>
+          
+        </div>
+        
+        <div class="row mt-5">
+          <div class="col-md-3">
+            <img src="img\food5.jpg" width="270" height="270"  class="img-responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="img\food6.jpg" width="270" height="270"  class="img-responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="img\food7.jpg" width="270" height="270"  class="img-responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="img\food8.jpg" width="270" height="270"  class="img-responsive">
+          </div>
+          
+        </div>
+      </div>
+      <!-- food and drinks -->
+      <!-- resturant -->
+      <div class="container-fluid">
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
+          <div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Our Restaurant</h2></div>
+          <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-8">
+            <img src="img\r.jpg" width="700" height="400"  class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <h3>MEET OUR CHEF</h3>
+            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+          </div>
+        </div>
+        
+      </div>
+      <!-- resturant -->
+    </div>
+    <!-- map -->
+    
+    <div class="container">
+      
+      <div class="row mt-5">
+        <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
+        <div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title"><ul>Hotel Location</ul></h2></div>
+        <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
+      </div>
+      
+      
+      <div class="row mt-5">
+        <div class="col-md-4 mt-5">
+          <h3 class="ml-5">Novotel Yangon Max</h3><br>
+          <div class="ml-5">
+            <span class="ml-5 mt-3">459 Pyay Road, Kamayut Tsp</span><br>
+            <span class="ml-5">PO BOX 895</span><br>
+            <span class="ml-5">Yangon, Myanmar</span> <br>
+            <span class="ml-5">1</span><br>
+            <span class="ml-5">YANGON.</span><br> 
+            <span class="ml-5">MYANMAR</span><br></div><br><br>
+            <div class="mt-5">
+              
+            </div>
+            <div class="ml-5 mt-5">
+              <span class="ml-5">Tel: +959251186014</span><br>
+              <span class="ml-5">Fax: (+95)1/2305868</span><br>
+              <span class="ml-5">Contact email :<br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;H9045-RE@accor.com
+              </span><br>
+              
+            </div>
+          </div>
+          <div class="col-md-8">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.1264972957183!2d96.12943331417972!3d16.82007952334693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1eb4aabd3fc11%3A0x415652183cd73011!2sNovotel%20Yangon%20Max!5e0!3m2!1sen!2smm!4v1605878588282!5m2!1sen!2smm" width="740" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          
+        </div>
+      </div>
+      <!-- end map -->
+    </div>
+  </div>
+  <!-- Contat us -->
+  <div class="row mt-5">
+    <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
+    <div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Contact Us </h2></div>
+    <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
+  </div>
+  <div class="container-fluid mt-5" style="background-color:white;">
+    <div class="contactus">
+      <div class="row mt-5" >
+        <div class="col-md-6 mt-5">
+          <div class="ml-5 mb-5">
+            <h3 class="text-dark">Have Us Contact You By Filling <br> And Submitting The Form</h3><br>
+            <p align="justify" class="text-dark"><b>You are just a few steps away from a personalized offer. Just fill 
+              in the form and send it to us and we'll get right back with a call to help you.</b></p>
+              <ul class="text-dark">
+                <b><li>It's very easy just fill in the form so we can send</li></b>
+                <b><li>To send meaasage , we'll require some info </li></b>
+                <b><li>Don't hesitate to email us for any questions or inquiries</li></b>
+              </ul>  
+            </div>
+          </div>
+          <div class="col-md-6 mt-5">
+            <form action="">
+              <div class="form-group mt-3 mr-5">
+                <label for="name" class="text-dark"><b>Name</b></label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group mt-3 mr-5">
+                <label for="name"class="text-dark"><b>Email</b></label>
+                <input type="text" class="form-control" name="email" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group mt-3 mr-5">
+                <label for="name" class="text-dark"><b>Message</b></label>
+                <textarea name="meaasge" class="form-control"  id="meaasge" rows="3" placeholder="Your Meaasge"></textarea>
+              </div>
+              <div class="form-group checkbox white">
+                <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required><i class="text-dark"><b> I agree Privacy Policy and Terms & Conditions </b></i>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-dark"> Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Contat us -->
+    <!-- about us -->
+    <div class="row mt-5">
+      <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
+      <div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">About  Us </h2></div>
+      <div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img\about1.jpg" width="370" height="300"  class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <img src="img\about2.jpg" width="350" height="300"  class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <h3>About  Us</h3>
+            <p align="justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a  </p>
+            
+          </div>
+          <div class="col-md-4">
+            <img src="img\about3.jpg" width="370" height="300"  class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <img src="img\about4.jpg" width="370" height="300"  class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <img src="img\about5.jpg" width="370" height="300"  class="img-responsive">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <button class="btn btn-dark "> <a href="#top">Back to top</a></button>
+      </div>
+    </div>
+    <!-- about us -->
+    <!-- footer  -->
+    <div class="container-fluid mt-5">
+      <footer class="ftco-footer ftco-bg-white ftco-section mt-5">
+        
+        <div class="row mt-3" style="background-color:sienna">
+          
+          <div class="col-md-3 mt-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="text-white">About</h2>
+              <p align="justify"><i class="text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sequi, architecto laborum excepturi molestiae dolore? Beatae distinctio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sequi, architecto laborum excepturi molestiae dolore? Beatae distinctio.</i></p>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="text-white">CONTACT INFO</h2>
+              <span> <h class="text-white"> <i class="fas fa-mobile-alt"></i> 09798059425</h></span><br><br>
+              <span> <h  class="text-white"> <i class="far fa-envelope"></i> hotel@novotel.com </h></span>
+              <div class="block-23 mb-3">
+                
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 mt-3">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h3 class="text-white ml-5">MAP</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.1264972957183!2d96.12943331417972!3d16.82007952334693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1eb4aabd3fc11%3A0x415652183cd73011!2sNovotel%20Yangon%20Max!5e0!3m2!1sen!2smm!4v1605878588282!5m2!1sen!2smm" width="500" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center" 
+          style="background-color:sienna">
+          
+          <p class="text-white">THANKS FOR VISITING</p>
+          
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js\script.js"></script>
+  
+  <!-- jQuery and JS bundle w/ Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
+</body>
+</html>
